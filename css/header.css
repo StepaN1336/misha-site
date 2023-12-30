@@ -1,0 +1,17 @@
+.nav-link {
+    
+}
+
+.nav__facebook-link,
+.nav__instagram-link {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.nav__social-media-image {
+    max-width: 40px;
+    max-height: 40px;
+    height: auto;
+}
