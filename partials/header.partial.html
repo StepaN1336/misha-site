@@ -1,26 +1,19 @@
-<header>
-    <div class="header-main container">
-        <div class="header__logo-container">
-            <img class="header__logo-image" src="images/logo.png" alt="logo image">
+<!-- Navbar-->
+<header class="header">
+    <nav class="navbar navbar-expand-lg fixed-top py-3">
+        <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold"><img class="header__logo-image" src="images/logo.png" alt="logo image"></a>
+            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"><img class="header__burger-menu-image" src="images/burger-menu.svg" alt="burger menu image"></i></button>
+            
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold">Компанія <span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Продукція</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Магазин</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Співпраця</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Контакти</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Вакансії</a></li>
+                </ul>
+            </div>
         </div>
-
-        <div class="header__navigation-bar">
-            <nav class="navigation-bar__nav">
-                <a class="nav__link" href="#">Компанія</a>
-                <a class="nav__link" href="#">Продукція</a>
-                <a class="nav__link" href="#">Магазини</a>
-                <a class="nav__link" href="#">Співпраця</a>
-                <a class="nav__link" href="#">Контакти</a>
-                <a class="nav__link" href="#">Вакансії</a>
-                <p class="nav__phone-number">+38 (000) 000-00-00</p>
-                <p class="nav__email">example@gmail.com</p>
-                <button class="nav__facebook-link">
-                    <img class="nav__social-media-image" src="images/facebook-logo.png" alt="facebook logo link">
-                </button>
-                <button class="nav__instagram-link">
-                    <img class="nav__social-media-image" src="images/instagram-logo.jpg" alt="instagram logo link">
-                </button>
-            </nav>
-        </div>
-    </div>
+    </nav>
 </header>
