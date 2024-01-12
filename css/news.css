@@ -1,0 +1,24 @@
+.news {
+    background-color: #f7f4f0;
+}
+
+.news__container {
+    padding: 60px 20px;
+}
+
+.news__header {
+    padding: 35px 0;
+    font-size: 44px;
+}
+
+.news__news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (min-width: 768px) {
+    .news__news-container {
+        flex-direction: row;
+    }
+}

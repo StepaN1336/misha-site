@@ -1,0 +1,36 @@
+.find-shops {
+    background-color: #f7f4f0;
+    
+    height: 32vh;
+}
+
+.find-shops__container {
+    background-color: #e2e1e1;
+    min-height: 100%;
+    padding: 40px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.find-shops__header {
+    max-width: 600px;
+    font-size: 42px;
+    padding: 0 0 16px 0;
+}
+
+.find-shops__link-container {
+    display: flex;
+}
+
+.find-shops__reference-shop-list {
+    color: #000000;
+}
+
+.find-shops__reference-shop-list:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.find-shops__right-arrow {
+    padding: 0 0 0 7px;
+}

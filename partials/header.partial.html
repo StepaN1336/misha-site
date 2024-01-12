@@ -1,19 +1,67 @@
-<!-- Navbar-->
-<header class="header">
-    <nav class="navbar navbar-expand-lg fixed-top py-3">
-        <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold"><img class="header__logo-image" src="images/logo.png" alt="logo image"></a>
-            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"><img class="header__burger-menu-image" src="images/burger-menu.svg" alt="burger menu image"></i></button>
-            
-            <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold">Компанія <span class="sr-only">(current)</span></a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Продукція</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Магазин</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Співпраця</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Контакти</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Вакансії</a></li>
+<header>
+    <div class="header__main-container">
+        <div class="header__nav-container">
+            <div class="header__logo-container">
+                <img class="header__logo-image" src="../images/logo.png" alt="Main logo company" />
+            </div>
+            <div class="header__links-container">
+                <ul class="header__link-list">
+                    <li class="header__link-items">
+                        <a class="header__menu-link" href="#">Компанія</a>
+                    </li>
+                    <li class="header__link-items">
+                        <a class="header__menu-link" href="#">Продукція</a>
+                    </li>
+                    <li class="header__link-items">
+                        <a class="header__menu-link" href="#">Магазини</a>
+                    </li>
+                    <li class="header__link-items">
+                        <a class="header__menu-link" href="#">Співпраця</a>
+                    </li>
+                    <li class="header__link-items">
+                        <a class="header__menu-link" href="#">Контакти</a>
+                    </li>
                 </ul>
             </div>
+            <div class="header__socaillink-container">
+                <ul class="sociallink__list">
+                    <li class="sociallink__item">
+                        <a class="sociallink-link" href="#"><img class="sociallink__image"
+                                src="../images/facebook-logo.png" alt="logo facebook" /></a>
+                    </li>
+                    <li class="sociallink__item">
+                        <a class="sociallink-link" href="#"><img class="sociallink__image"
+                                src="../images/instagram-logo.jpg" alt="logo instagram" /></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="burger-icon" id="burgerIcon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
         </div>
-    </nav>
+    </div>
+
+    <div class="hamb_modal" id="hamb_modal">
+        <ul class="menu">
+            <li><a href="#">about us</a></li>
+            <li><a href="#">catalogue</a></li>
+            <li><a href="#">projects</a></li>
+            <li><a href="#">showroom</a></li>
+            <li><a href="#">contacts</a></li>
+        </ul>
+        <div class="header__socaillink-wrapper">
+            <ul class="sociallink__list">
+                <li class="sociallink__item">
+                    <a class="sociallink-link" href="#"><img class="sociallink__image"
+                            src="../images/facebook-logo.png" alt="logo facebook" /></a>
+                </li>
+                <li class="sociallink__item">
+                    <a class="sociallink-link" href="#"><img class="sociallink__image"
+                            src="../images/instagram-logo.jpg" alt="logo instagram" /></a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </header>

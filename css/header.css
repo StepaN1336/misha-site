@@ -1,52 +1,188 @@
-.navbar {
-    transition: all 0.4s;
+header {
+    background-color: #f7f4f0;
+    top: 0;
+    width: 100%;
 }
 
-.navbar .nav-link:hover,
-.navbar .nav-link:focus {
+.header__link-list,
+.sociallink__list {
+    list-style: none;
+}
+
+.header__menu-link {
     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.68rem;
+    font-weight: 700;
+}
+
+.header__main-container {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+.header__nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo-container {
+    margin-bottom: 10px;
 }
 
 .header__logo-image {
-    max-width: 160px;
+    width: 106px;
 }
 
-.header__burger-menu-image {
-    max-width: 30px;
+.header__links-container,
+.header__socaillink-container {
+    display: none;
 }
 
-/* Change navbar styling on scroll */
-.navbar.active {
-    background: #fff;
-    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+.header__link-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.navbar.active .nav-link {
-    color: #555;
+.sociallink__list {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
 }
 
-.navbar.active .nav-link:hover,
-.navbar.active .nav-link:focus {
-    color: #555;
-    text-decoration: none;
+.sociallink__image {
+    width: 26px;
 }
 
-.navbar.active .navbar-brand {
-    color: #555;
-}
-
-
-/* Change navbar styling on small viewports */
-@media (max-width: 991.98px) {
-    .navbar {
-        background: #fff;
+@media (min-width: 992px) {
+    .header__nav-container {
+        flex-direction: row;
     }
 
-    .navbar .navbar-brand, .navbar .nav-link {
-        color: #555;
+    .header__links-container,
+    .header__socaillink-container {
+        display: flex;
+    }
+
+    .header__link-list {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .hamb {
+        display: none;
+    }
+
+    .hamb_modal {
+        display: none;
     }
 }
 
-.text-small {
-    font-size: 0.9rem !important;
+.hamb_modal {
+    display: none;
+    position: fixed;
+    max-width: 100vw;
+    max-height: 100vh;
+    top: 70px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    -webkit-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease;
+}
+
+.hamb_modal.active {
+    display: block;
+    background-color: #f7f4f0;
+}
+
+@media (min-width: 991px) {
+    .burger-icon {
+        display: none;
+    }
+}
+
+@media (max-width: 990px) {
+
+    .header__links-container,
+    .header__socaillink-container {
+        display: none;
+    }
+
+    .burger-icon {
+        width: 24px;
+        height: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .bar {
+        width: 100%;
+        height: 2px;
+        background-color: rgb(47, 49, 51);
+        transition:
+            transform 0.3s,
+            opacity 0.3s;
+    }
+
+    .burger-icon.active .bar:nth-child(2) {
+        transform: scaleX(0);
+        opacity: 0;
+    }
+
+    .burger-icon.active .bar:nth-child(1) {
+        transform: translateY(4px) rotate(45deg);
+    }
+
+    .burger-icon.active .bar:nth-child(3) {
+        transform: translateY(-10px) rotate(-45deg);
+    }
+
+    .burger-icon.active .bar:nth-child(2) {
+        display: none;
+    }
+
+    .header__socaillink-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu {
+        list-style: none;
+        text-align: center;
+    }
+
+    .menu li {
+        margin-bottom: 20px;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: rgb(141, 141, 141);
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .close-icon {
+        color: rgb(47, 49, 51);
+        cursor: pointer;
+        font-size: 22px;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10px;
+    }
 }
