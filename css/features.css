@@ -6,6 +6,16 @@
     padding: 20px;
 }
 
+.fade-in-animation {
+    opacity: 0;
+}
+
+@keyframes slideLeft {
+    to {
+        opacity: 1;
+    }
+}
+
 .features__header {
     font-size: 24px;
     font-weight: bold;
@@ -20,9 +30,7 @@
     font-size: 14px;
 }
 
-
-/* Tablet styles */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .features__features-container {
         display: flex;
         gap: 14px;
@@ -30,8 +38,7 @@
     }
 }
 
-/* Desktop styles */
-@media only screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
     .features__box {
         padding: 40px;
     }

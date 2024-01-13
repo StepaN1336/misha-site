@@ -1,6 +1,5 @@
 .find-shops {
     background-color: #f7f4f0;
-    
     height: 32vh;
 }
 
@@ -33,4 +32,10 @@
 
 .find-shops__right-arrow {
     padding: 0 0 0 7px;
+}
+
+@media (max-width: 510px) {
+    .find-shops {
+        height: 40vh;
+    }
 }

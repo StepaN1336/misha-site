@@ -37,6 +37,7 @@ header {
 
 .header__logo-image {
     width: 106px;
+    background-color: #f7f4f0;
 }
 
 .header__links-container,
