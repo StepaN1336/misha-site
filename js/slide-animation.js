@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const newsAnimationContainer = document.querySelector('.news__wrapper');
-    const featuresAnimationContainer = document.querySelector('.features_wrapper');
+    const featuresAnimationContainer = document.querySelector('.features__wrapper');
     
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
