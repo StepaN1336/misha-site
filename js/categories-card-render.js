@@ -3,7 +3,7 @@ let title = null;
 let image = null;
 let categoriesCount = 0;
 
-fetch('../json/categories.json')
+fetch('json/categories.json')
     .then(response => response.json())
     .then(jsonContent => {
         for (const categoryKey in jsonContent) {
