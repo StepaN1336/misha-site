@@ -1,0 +1,14 @@
+{
+    "fresh-meat": {
+        "title": "Свіже м'ясо",
+        "image": "images/production-categories/fresh-meat.jpg"
+    },
+    "semi-finished-products": {
+        "title": "Напівфабрикати",
+        "image": "images/production-categories/semi-finished-products.jpg"
+    },
+    "ready-to-go-products": {
+        "title": "Готова продукція",
+        "image": "images/production-categories/ready-to-go-products.jpg"
+    }
+}
