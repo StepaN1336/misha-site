@@ -1,7 +1,4 @@
 const categoriesContainer = document.querySelector('.production__categories-cards');
-let title = null;
-let image = null;
-let categoriesCount = 0;
 
 fetch('json/categories.json')
     .then(response => response.json())
@@ -11,20 +8,26 @@ fetch('json/categories.json')
                 const category = jsonContent[categoryKey];
                 const title = category.title;
                 const image = category.image;
-                
+                const htmlUrl = category.htmlPage;
+
+                const link = document.createElement('a');
+                link.href = htmlUrl;
+                link.classList.add('production__card-link')
+
                 const categoryCard = document.createElement('div');
                 categoryCard.classList.add('production__category-card');
-
                 categoryCard.style.backgroundImage = `url(${image})`;
+                
                 const titleElement = document.createElement('h2');
                 titleElement.textContent = title;
                 titleElement.classList.add('production__category-title');
                 categoryCard.appendChild(titleElement);
 
-                categoriesContainer.appendChild(categoryCard);
+                link.appendChild(categoryCard);
+
+                categoriesContainer.appendChild(link);
             }
         }
 
     })
     .catch(err => console.error('Помилка читання файлу:', err));
-

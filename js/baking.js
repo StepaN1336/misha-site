@@ -1,4 +1,4 @@
 document.addEventListener('partialsLoaded', () => {
     import('./header.js');
-    import('./card-render/categories-card-render.js');
+    import('./card-render/baking-card-render.js');
 });

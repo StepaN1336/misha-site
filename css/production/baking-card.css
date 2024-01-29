@@ -1,0 +1,36 @@
+.baking-list {
+    background-color: #f3f1f1;
+}
+
+.baking-list__title {
+    padding: 10px 0 0 0;
+}
+
+.baking-list__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px 0 30px 0;
+}
+
+.baking-list__card {
+    flex: 0 0 calc(20% - 20px);
+    min-width: calc(20% - 20px);
+    background-size: cover;
+    min-height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.baking-list__card:hover {
+    transform: scale(1.05);
+}
+
+.baking-list__card-title {
+    margin: 10px;
+    padding: 150px 0 0 0;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
