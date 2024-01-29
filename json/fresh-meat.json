@@ -1,0 +1,42 @@
+{
+    "fresh-meat": {
+        "title": "Свіже м'ясо",
+        "image": "images/production-categories/fresh-meat.jpg"
+    },
+    "fresh-at": {
+        "title": "Свіже м'ясо",
+        "image": "images/production-categories/fresh-meat.jpg"
+    },
+    "fre-meat": {
+        "title": "Свіже м'ясо",
+        "image": "images/production-categories/fresh-meat.jpg"
+    },
+    "fesh-meat": {
+        "title": "Свіже м'ясо",
+        "image": "images/production-categories/fresh-meat.jpg"
+    },
+    "fresh-mat": {
+        "title": "Свіже м'ясо",
+        "image": "images/production-categories/fresh-meat.jpg"
+    },
+    "bakig": {
+        "title": "Випічка",
+        "image": "images/production-categories/baking.jpg"
+    },
+    "bakg": {
+        "title": "Випічка",
+        "image": "images/production-categories/baking.jpg"
+    },
+    "bag": {
+        "title": "Випічка",
+        "image": "images/production-categories/baking.jpg"
+    },
+    "ready-to-go-producs": {
+        "title": "Готова продукція",
+        "image": "images/production-categories/ready-to-go-products.jpg"
+    },
+    "ready-to-go-products": {
+        "title": "Готова продукція",
+        "image": "images/production-categories/ready-to-go-products.jpg"
+    }
+}
