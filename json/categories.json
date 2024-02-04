@@ -1,47 +1,47 @@
 {
     "vareniKovbasniVyroby": {
         "title": "Варені ковбасні вироби",
-        "image": "images/production-categories/fresh-meat.jpg",
+        "image": "images/варені-ковбасні-вироби/2.Делікатесна.jpg",
         "htmlPage": "fresh-meat-products.html"
     },
     "syrovyaleniKovbasniVyroby": {
         "title": "Сиров'ялены ковбасні вироби",
-        "image": "images/production-categories/baking.jpg",
-        "htmlPage": "baking-products.html"
+        "image": "images/сиров_ялені-ковбасні-вироби/2.Свинна-сиров_ялена.jpg",
+        "htmlPage": "categories-html/napiv-kopcheni-kovbasni-vyroby.html"
     },
     "napivKopcheniKovbasniVyroby": {
         "title": "Копчено-варені, напів копчені ковбасні вироби",
-        "image": "images/production-categories/ready-to-go-products.jpg",
+        "image": "images/копчено-варені-напів-копчені-ковбасні-вироби/12.Суха.jpg",
         "htmlPage": "ready-to-go-products.html"
     },
     "kopcheniVyroby": {
         "title": "Копчені вироби",
-        "image": "images/production-categories/baking.jpg",
+        "image": "images/копчені-вироби/2.Балик-свинний.jpg",
         "htmlPage": "baking-products.html"
     },
     "kovbasyLiverniKrovyaniHlibtsiZeltsy": {
         "title": "Ковбаси ліверні та кров'яні, хлібці, зельци",
-        "image": "images/production-categories/baking.jpg",
+        "image": "images/ковбаси-ліверні-кров_яні-хлібці-зельци/1.Хлібець-Стрийський.jpg",
         "htmlPage": "baking-products.html"
     },
     "sosyskySardelky": {
         "title": "Сосиски, сардельки",
-        "image": "images/Сосиски/1.Сосиски-курячі-з-вершками.jpg",
+        "image": "images/сосиски-сардельки/1.Сосиски-курячі-з-вершками.jpg",
         "htmlPage": "baking-products.html"
     },
     "napivFabrykatyKovbaskyDlyaGrylya": {
         "title": "Напів фабрикати м'ясні, Ковбаски для гриля",
-        "image": "images/production-categories/baking.jpg",
+        "image": "images/напівфабрикати-ковбаси-для-гриля/5.Ковбаски-Мюнхенські.jpg",
         "htmlPage": "baking-products.html"
     },
     "delikatesy": {
         "title": "Делікатеси",
-        "image": "images/production-categories/baking.jpg",
+        "image": "images/делікатеси/8.Рулет-Колібрі-курячий.jpg",
         "htmlPage": "baking-products.html"
     },
     "tvarynnyiKorm": {
         "title": "Тваринний корм",
-        "image": "images/production-categories/baking.jpg",
+        "image": "images/тваринний-корм/корм-для-тварин-ліверний.jpg",
         "htmlPage": "baking-products.html"
     }
 }

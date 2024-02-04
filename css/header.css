@@ -30,12 +30,22 @@
     padding: 0;
 }
 
-.header__navigation-link {
+.header__navigation-link-item {
     display: inline-block;
     margin-right: 15px;
     padding: 0 20px 0 20px;
     font-family: 'Lemon', serif;
     font-size: 20px;
+}
+
+.header__navigation-link {
+    transition: color 0.35s ease-in;
+    text-decoration: none;
+}
+
+.header__navigation-link:hover {
+    color: #ff6600;
+    text-decoration: none;
 }
 
 .header__navigation-link a {

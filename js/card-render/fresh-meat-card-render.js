@@ -1,6 +1,6 @@
 const bakingContainer = document.querySelector('.fresh-meat-list__cards');
 
-fetch('json/fresh-meat.json')
+fetch('../json/fresh-meat.json')
     .then(response => response.json())
     .then(jsonContent => {
         for (const categoryKey in jsonContent) {
