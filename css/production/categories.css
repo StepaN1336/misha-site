@@ -22,6 +22,10 @@
   padding: 30px 0 30px 0;
 }
 
+.production__card-link {
+  max-width: calc(33.333% - 20px);
+}
+
 .production__category-card {
   flex: 0 0 calc(33.333% - 20px);
   background-size: cover;
