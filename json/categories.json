@@ -31,17 +31,17 @@
     },
     "napivFabrykatyKovbaskyDlyaGrylya": {
         "title": "Напів фабрикати м'ясні, Ковбаски для гриля",
-        "image": "images/напівфабрикати-ковбаси-для-гриля/5.Ковбаски-Мюнхенські.jpg",
-        "htmlPage": "baking-products.html"
+        "image": "images/напів-фабрикати-ковбаси-для-гриля/5.Ковбаски-Мюнхенські.jpg",
+        "htmlPage": "categories-html/napiv-fabrykaty-kovbasy-dlya-grylya.html"
     },
     "delikatesy": {
         "title": "Делікатеси",
         "image": "images/делікатеси/8.Рулет-Колібрі-курячий.jpg",
-        "htmlPage": "baking-products.html"
+        "htmlPage": "categories-html/delikatesy.html"
     },
     "tvarynnyiKorm": {
         "title": "Тваринний корм",
         "image": "images/тваринний-корм/корм-для-тварин-ліверний.jpg",
-        "htmlPage": "baking-products.html"
+        "htmlPage": "categories-html/tvarynnyi-korm.html"
     }
 }

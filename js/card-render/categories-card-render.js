@@ -17,6 +17,7 @@ fetch('json/categories.json')
                 const categoryCard = document.createElement('div');
                 categoryCard.classList.add('production__category-card');
                 categoryCard.style.backgroundImage = `url(${image})`;
+                categoryCard.style.backgroundPosition = 'center center';
                 
                 const titleElement = document.createElement('h2');
                 titleElement.textContent = title;
