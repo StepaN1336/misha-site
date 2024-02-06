@@ -2,32 +2,32 @@
     "vareniKovbasniVyroby": {
         "title": "Варені ковбасні вироби",
         "image": "images/варені-ковбасні-вироби/2.Делікатесна.jpg",
-        "htmlPage": "fresh-meat-products.html"
+        "htmlPage": "categories-html/vareni-kovbasni-vyroby.html"
     },
     "syrovyaleniKovbasniVyroby": {
         "title": "Сиров'ялены ковбасні вироби",
         "image": "images/сиров_ялені-ковбасні-вироби/2.Свинна-сиров_ялена.jpg",
-        "htmlPage": "categories-html/napiv-kopcheni-kovbasni-vyroby.html"
+        "htmlPage": "categories-html/syrovyaleni-kovbasni-vyroby.html"
     },
     "napivKopcheniKovbasniVyroby": {
         "title": "Копчено-варені, напів копчені ковбасні вироби",
         "image": "images/копчено-варені-напів-копчені-ковбасні-вироби/12.Суха.jpg",
-        "htmlPage": "ready-to-go-products.html"
+        "htmlPage": "categories-html/napiv-kopcheni-kovbasni-vyroby.html"
     },
     "kopcheniVyroby": {
         "title": "Копчені вироби",
         "image": "images/копчені-вироби/2.Балик-свинний.jpg",
-        "htmlPage": "baking-products.html"
+        "htmlPage": "categories-html/kopcheni-vyroby.html"
     },
     "kovbasyLiverniKrovyaniHlibtsiZeltsy": {
         "title": "Ковбаси ліверні та кров'яні, хлібці, зельци",
         "image": "images/ковбаси-ліверні-кров_яні-хлібці-зельци/1.Хлібець-Стрийський.jpg",
-        "htmlPage": "baking-products.html"
+        "htmlPage": "categories-html/kovbasy-liverni-krovyani-hlibtsi-zeltsy.html"
     },
     "sosyskySardelky": {
         "title": "Сосиски, сардельки",
         "image": "images/сосиски-сардельки/1.Сосиски-курячі-з-вершками.jpg",
-        "htmlPage": "baking-products.html"
+        "htmlPage": "categories-html/sosysky-sardelky.html"
     },
     "napivFabrykatyKovbaskyDlyaGrylya": {
         "title": "Напів фабрикати м'ясні, Ковбаски для гриля",
