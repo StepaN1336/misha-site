@@ -1,0 +1,50 @@
+.find-us__title {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+.find-us__description {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #666;
+    text-align: justify;
+}
+
+.find-us__addresses {
+    padding: 8px 0 10px 0;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.find-us__address {
+    position: relative;
+    padding: 10px 0 4px 5px;
+    margin-left: 40px;
+    list-style-image: url('../../images/list-item.svg');
+}
+
+.find-us__map {
+    min-height: 400px;
+    min-width: calc(100% - 20px);
+}
+
+.find-us__end-paragraph {
+    padding: 20px 0 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #666;
+    text-align: justify;
+}
+
+@media (max-width: 480px) {
+    .find-us__title {
+        font-size: 18px;
+    }
+    
+    .find-us__description, .find-us__end-paragraph {
+        font-size: 14px;
+    }
+}
