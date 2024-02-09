@@ -23,6 +23,7 @@
 
 .find-shops__reference-shop-list {
     color: #000000;
+    display: flex;
 }
 
 .find-shops__reference-shop-list:hover {

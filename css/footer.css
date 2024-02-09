@@ -49,10 +49,11 @@
 
 .footer-logo {
     margin-bottom: 30px;
+    margin-left: 50px;
 }
 
 .footer-logo img {
-    max-width: 200px;
+    max-width: 400px;
 }
 
 .footer-text p {
@@ -60,6 +61,7 @@
     font-size: 14px;
     color: #7e7e7e;
     line-height: 28px;
+    max-width: 400px;
 }
 
 /* Social icon styles */
