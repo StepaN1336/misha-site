@@ -38,5 +38,5 @@ function cardRender(json) {
 }
 
 document.addEventListener('partialsLoaded', () => {
-    cardRender("../../json/vacancies.json");
+    cardRender("../json/vacancies.json");
 });
