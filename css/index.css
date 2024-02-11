@@ -1,7 +1,7 @@
 @import url(../css/global.css);
 @import url(../css/header.css);
+@import url(../css/index/hero.css);
+@import url(../css/index/features.css);
+@import url(../css/index/find-shops.css);
+@import url(../css/index/news.css);
 @import url(../css/footer.css);
-@import url(../css/features.css);
-@import url(../css/find-shops.css);
-@import url(../css/news.css);
-@import url(../css/hero.css);
