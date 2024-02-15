@@ -80,7 +80,7 @@
     padding: 0 10px 0 0;
 }
 
-@media(max-width:840px) {
+@media(max-width: 840px) {
     body.lock {
         overflow: hidden;
     }
@@ -162,5 +162,12 @@
 
     .header__social-medias {
         padding: 0 0 0 20px;
+    }
+}
+
+@media(max-width: 341px) {
+    .header__main-page-logo-link {
+        max-width: 100px;
+        max-height: 150px;
     }
 }

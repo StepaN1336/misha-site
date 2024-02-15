@@ -72,9 +72,3 @@
         font-size: 64px;
     }
 }
-
-@media (min-width: 992px) {
-    .hero__description {
-        font-size: 76px;
-    }
-}

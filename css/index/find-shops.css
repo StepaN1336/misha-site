@@ -35,8 +35,21 @@
     padding: 0 0 0 7px;
 }
 
-@media (max-width: 510px) {
+
+@media (max-width: 516px) {
+    .find-shops {
+        height: 45vh;
+    }
+}
+
+@media (max-width: 420px) {
     .find-shops {
         height: 50vh;
+    }
+}
+
+@media (max-width: 326px) {
+    .find-shops {
+        height: 55vh;
     }
 }

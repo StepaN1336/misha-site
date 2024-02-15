@@ -32,7 +32,6 @@ function cardRender(json) {
                     vacancyCard.appendChild(vacancyTitle);
                     vacancyCard.appendChild(vacancyDescription);
                     vacancyCard.appendChild(requirementsList);
-                    console.log(vacanciesContainer);
                     vacanciesContainer.appendChild(vacancyCard);
                 }
             }
