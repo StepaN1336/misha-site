@@ -55,6 +55,8 @@
 .header__navigation-link {
     transition: color 0.35s ease-in;
     text-decoration: none;
+    color: #000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .header__navigation-link:hover {
@@ -150,6 +152,7 @@
         display: flex;
         flex-direction: column;
         transition: all 0.3s ease 0s;
+        align-items: center;
     }
 
     .header__navigation-links.open {
