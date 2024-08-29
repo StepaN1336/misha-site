@@ -21,8 +21,17 @@
     display: inline-block;
 }
 
-.cta-text h4 {
+.cta-href {
     color: #fff;
+    text-decoration: none;
+}
+
+.cta-href:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cta-text h4 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 2px;
@@ -193,4 +202,34 @@
 .footer-menu li a {
     font-size: 14px;
     color: #878787;
+}
+
+@media (max-width: 991px) {
+    .footer-logo {
+        display: none;
+    }
+    
+    .footer-info-below {
+        padding: 0 0 0 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-info-below {
+        padding: 0 0 0 150px;
+    }
+
+    .single-cta {
+        padding: 0 0 10px 135px;
+    }
+}
+
+@media (max-width: 580px) {
+    .footer-info-below {
+        padding: 0 0 0 60px;
+    }
+
+    .single-cta {
+        padding: 0 0 10px 45px;
+    }
 }

@@ -15,12 +15,17 @@ export function cardRender(json, productionTitle) {
 
                     const categoryCard = document.createElement('div');
                     categoryCard.classList.add('production__card');
-                    categoryCard.style.backgroundImage = `url(${image})`;
 
-                    const titleElement = document.createElement('h2');
-                    titleElement.textContent = title;
-                    titleElement.classList.add('production__card-title');
-                    categoryCard.appendChild(titleElement);
+                    const categoryImage = document.createElement('img');
+                    categoryImage.setAttribute('src', image);
+                    categoryImage.classList.add('production__card-image');
+
+                    const categoryTitle = document.createElement('h2');
+                    categoryTitle.textContent = title;
+                    categoryTitle.classList.add('production__card-title');
+
+                    categoryCard.appendChild(categoryImage);
+                    categoryCard.appendChild(categoryTitle);
 
                     bakingContainer.appendChild(categoryCard);
                 }

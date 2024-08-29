@@ -26,5 +26,25 @@
     "rebraSvynni": {
         "title": "Ребра Свинні",
         "image": "../images/копчені-вироби/8.Ребра-свинні.jpg"
+    },
+    "test": {
+        "title": "Тестова назва",
+        "image": "../images/копчені-вироби/test.jpg"
+    },
+    "test1": {
+        "title": "Тестова назва",
+        "image": "../images/копчені-вироби/test.jpg"
+    },
+    "test2": {
+        "title": "Тестова назва",
+        "image": "../images/копчені-вироби/test.jpg"
+    },
+    "test3": {
+        "title": "Тестова назва",
+        "image": "../images/копчені-вироби/test.jpg"
+    },
+    "test4": {
+        "title": "Тестова назва",
+        "image": "../images/копчені-вироби/test.jpg"
     }
 }
