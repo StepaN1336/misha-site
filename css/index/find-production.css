@@ -1,0 +1,83 @@
+.find-production {
+    background-color: var(--global-background-color);
+    padding: 40px 24px 5px 24px;
+}
+
+.find-production__heading-descrition {
+    padding: 20px 10px;
+}
+
+.find-production__header {
+    text-align: center;
+}
+
+.find-production__description {
+    text-align: center;
+}
+
+.example__card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
+.example__image {
+    max-height: 600px;
+}
+
+.example__title {
+    padding: 30px 20px 15px 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.example__description {
+    padding: 0 20px 30px 20px;
+    color: #8d8d8d;
+}
+
+.find-production__more-button-container {
+    text-align: center;
+}
+
+.find-production__href {
+    background-color: #8b6f55;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.find-production__href:hover {
+    background-color: #8c9d8a;
+    transition: 0.7s;
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (min-width: 800px) {
+    .example__card {
+        flex-direction: row;
+    }
+
+    .example__card:nth-of-type(2) {
+        flex-direction: row-reverse;
+    }
+
+    .example__image {
+        max-width: 50%;
+    }
+
+    .example__text-content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

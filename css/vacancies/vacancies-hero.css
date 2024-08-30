@@ -1,0 +1,4 @@
+.hero {
+    background-color: var(--vacancies-background-color);
+    padding: 100px 20px 10px 20px;
+}
