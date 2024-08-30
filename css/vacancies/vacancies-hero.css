@@ -1,4 +1,17 @@
 .hero {
     background-color: var(--vacancies-background-color);
-    padding: 100px 20px 10px 20px;
+    padding: 120px 20px 10px 20px;
+}
+
+.vacancies-hero {
+
+}
+
+.vacancies-hero__title {
+    text-align: center;
+}
+
+.vacancies-hero__description {
+    text-align: center;
+    padding: 10px 20px 20px 20px;
 }

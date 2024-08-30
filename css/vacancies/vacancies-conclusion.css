@@ -1,0 +1,8 @@
+.vacancies-conclusion {
+    background-color: var(--vacancies-background-color);
+    padding: 40px 20px;
+}
+
+.vacancies-conclusion__description {
+    text-align: center;
+}

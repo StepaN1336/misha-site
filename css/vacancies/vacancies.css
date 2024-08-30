@@ -13,16 +13,22 @@
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    background-color: #ececec;
+    background-color: #ffffff;
     border-radius: 10px;
 }
 
 .vacancy__card-title {
-    padding: 10px 0 0 40px;
+    padding: 20px 0 0 40px;
+    font-size: 28px;
 }
 
 .vacancy__card-description {
-    padding: 10px 0 0 35px;
+    padding: 10px 20px 0 35px;
+}
+
+.vacancy__lists-header {
+    font-size: 20px;
+    padding: 0 0 0 50px;
 }
 
 .vacancy__card-list {

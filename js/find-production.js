@@ -15,8 +15,6 @@ const examples = [
     }
 ]
 
-renderExamples(examples);
-
 function renderExamples(examples) {
     const examplesContainer = document.querySelector('.find-production__example');
     for(const example of examples) {
@@ -47,3 +45,5 @@ function renderExamples(examples) {
         examplesContainer.appendChild(exampleCard);
     }
 }
+
+renderExamples(examples);
