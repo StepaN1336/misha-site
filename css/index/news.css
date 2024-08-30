@@ -24,8 +24,8 @@
 }
 
 .news__header {
-    padding: 35px 0;
-    font-size: 44px;
+    padding: 35px 0 0 0;
+    text-align: center;
 }
 
 .news__news-container {
@@ -37,5 +37,9 @@
 @media (min-width: 768px) {
     .news__news-container {
         flex-direction: row;
+    }
+
+    .news__header {
+        text-align: left;
     }
 }

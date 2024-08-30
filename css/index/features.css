@@ -3,7 +3,7 @@
 }
 
 .features__box {
-    padding: 20px;
+    padding: 30px 30px 10px 30px;
 }
 
 .fade-in-animation {
@@ -17,17 +17,17 @@
 }
 
 .features__header {
-    font-size: 24px;
-    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
 }
 
 .feature__header {
-    font-size: 18px;
-    font-weight: bold;
+    text-align: center;
+    padding: 10px 0 0 0;
 }
 
 .feature__description {
-    font-size: 14px;
+    text-align: center;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -36,15 +36,19 @@
         gap: 14px;
         padding: 20px 0;
     }
+
+    .feature__header {
+        text-align: left;
+    }
+
+    .feature__description {
+        text-align: left;
+    }
 }
 
 @media (min-width: 1024px) {
     .features__box {
         padding: 40px;
-    }
-
-    .features__header {
-        font-size: 32px;
     }
 
     .features__features-container {
@@ -54,10 +58,10 @@
     }
 
     .feature__header {
-        font-size: 22px;
+        text-align: left;
     }
 
     .feature__description {
-        font-size: 18px;
+        text-align: left;
     }
 }

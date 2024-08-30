@@ -4,24 +4,22 @@
 }
 
 .find-us__title {
-    font-size: 40px;
     text-align: center;
     padding: 40px 0 0 0;
 }
 
 .find-us__description {
     padding: 15px 30px;
-    font-size: 18px;
+    text-align: center;
 }
 
 .find-us__list-header {
-    font-size: 32px;
-    padding: 40px 0 5px 20px;
+    padding: 40px 0 5px 0;
+    text-align: center;
 }
 
 .find-us__list-description {
-    font-size: 18px;
-    padding: 0 0 0 70px;
+    text-align: center;
 }
 
 .find-us__addresses {
@@ -42,8 +40,8 @@
 }
 
 .find-us__map-header {
-    font-size: 32px;
-    padding: 40px 0 20px 50px;
+    padding: 40px 0 20px 0px;
+    text-align: center;
 }
 
 .find-us__map {
@@ -55,8 +53,7 @@
 
 .find-us__end-paragraph {
     padding: 20px 30px 0 30px;
-    font-size: 18px;
-    font-size: bold;
+    text-align: center;
 }
 
 @media (min-width: 814px) {
