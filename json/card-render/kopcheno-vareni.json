@@ -1,0 +1,130 @@
+{
+    "vuhaSvynniKopcheni": {
+        "title": "Вуха Свинні Копчені",
+        "image": "../images/Копчено-варені/Вуха-свинні-копчені.webp"
+    },
+    "gomilkaKuryachaKopchena": {
+        "title": "Гомілка Куряча Копчена",
+        "image": "../images/Копчено-варені/Гомілка-куряча-копчена.webp"
+    },
+    "gutsulska": {
+        "title": "Гуцульська",
+        "image": "../images/Копчено-варені/Гуцульська.webp"
+    },
+    "dovbushivska": {
+        "title": "Довбушівська",
+        "image": "../images/Копчено-варені/Довбушівська.jpg"
+    },
+    "domashnyaZBochky": {
+        "title": "Домашня З Бочки",
+        "image": "../images/Копчено-варені/Домашня-з-бочки.jpg"
+    },
+    "domashnyaNaDrovah": {
+        "title": "Домашня На Дровах",
+        "image": "../images/Копчено-варені/Домашня-на-дровах.jpg"
+    },
+    "domashnyaRublena": {
+        "title": "Домашня Рублена",
+        "image": "../images/Копчено-варені/Домашня-рублена.jpg"
+    },
+    "drogobytskaPershogoGatunku": {
+        "title": "Дрогобицька 1Г",
+        "image": "../images/Копчено-варені/Дрогобицька-1г.jpg"
+    },
+    "drogobytskaVyshchogoGatunku": {
+        "title": "Дрогобицька Вищого Гатунку",
+        "image": "../images/Копчено-варені/Дрогобицька-вищого-гатунку.jpg"
+    },
+    "karkasyKopcheni": {
+        "title": "Каркаси Копчені",
+        "image": "../images/Копчено-варені/Каркаси-копчені.jpg"
+    },
+    "kovbasaBalykova": {
+        "title": "Ковбаса Баликова",
+        "image": "../images/Копчено-варені/Ковбаса-Баликова.jpg"
+    },
+    "kovbasaKuryacha": {
+        "title": "Ковбаса Куряча",
+        "image": "../images/Копчено-варені/Ковбаса-Куряча.jpg"
+    },
+    "kovbasaLiverna": {
+        "title": "Ковбаса Ліверна",
+        "image": "../images/Копчено-варені/Ковбаса-Ліверна.jpg"
+    },
+    "kovbasaLvivska": {
+        "title": "Ковбаса Львівська",
+        "image": "../images/Копчено-варені/Ковбаса-Львівська.jpg"
+    },
+    "kovbasaNapoli": {
+        "title": "Ковбаса Наполі",
+        "image": "../images/Копчено-варені/Ковбаса-Наполі.jpg"
+    },
+    "kovbasaPaperoni": {
+        "title": "Ковбаса Папероні",
+        "image": "../images/Копчено-варені/Ковбаса-Папероні.jpg"
+    },
+    "kovbasaPosolska": {
+        "title": "Ковбаса Посольська",
+        "image": "../images/Копчено-варені/Ковбаса-Посольська.jpg"
+    },
+    "kovbasaChasnykova": {
+        "title": "Ковбаса Часникова",
+        "image": "../images/Копчено-варені/Ковбаса-Часникова.jpg"
+    },
+    "kovbasaShynkovaDoSnidanku": {
+        "title": "Ковбаса Шинкова До Сніданку",
+        "image": "../images/Копчено-варені/Ковбаса-шинкова-до-сніданку.jpg"
+    },
+    "kovbasaKabanossi": {
+        "title": "Ковбаски Кабаноссі",
+        "image": "../images/Копчено-варені/Ковбаски-Кабаноссі.jpg"
+    },
+    "kovbaskyMyslyvskiVyshchogoGatunku": {
+        "title": "Ковбаски Мисливські В.Г.",
+        "image": "../images/Копчено-варені/Ковбаски-мисливські-в-г.jpg"
+    },
+    "kovbaskyMyslyvski": {
+        "title": "Ковбаски Мисливські",
+        "image": "../images/Копчено-варені/Ковбаски-мисливські.jpg"
+    },
+    "krylaKuryachiKopcheni": {
+        "title": "Крила Курячі Копчені",
+        "image": "../images/Копчено-варені/Крила-курячі-копчені.jpg"
+    },
+    "salyamiAlpiyska": {
+        "title": "Салямі Альпійська",
+        "image": "../images/Копчено-варені/Салямі-Альпійська.jpg"
+    },
+    "slyamiGorihova": {
+        "title": "Салямі Горіхова",
+        "image": "../images/Копчено-варені/Салямі-Горіхова.jpg"
+    },
+    "salyamiZernysta": {
+        "title": "Салямі Зерниста",
+        "image": "../images/Копчено-варені/Салямі-Зерниста.jpg"
+    },
+    "salyamiKyivska": {
+        "title": "Салямі Київська",
+        "image": "../images/Копчено-варені/Салямі-Київська.jpg"
+    },
+    "slyamiClassic": {
+        "title": "Салямі Класік",
+        "image": "../images/Копчено-варені/Салямі-Класік.jpg"
+    },
+    "salyamiNapivsuha": {
+        "title": "Салямі Напівсуха",
+        "image": "../images/Копчено-варені/Салямі-напівсуха.jpg"
+    },
+    "salyamiSuha": {
+        "title": "Салямі Суха",
+        "image": "../images/Копчено-варені/Салямі-Суха.jpg"
+    },
+    "servilat": {
+        "title": "Сервілат",
+        "image": "../images/Копчено-варені/Сервілат.jpg"
+    },
+    "shynkovoKuryacha": {
+        "title": "Шинково Куряча",
+        "image": "../images/Копчено-варені/Шинково-куряча.jpg"
+    }
+}

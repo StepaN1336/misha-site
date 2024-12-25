@@ -1,47 +1,62 @@
 {
-    "vareniKovbasniVyroby": {
-        "title": "Варені ковбасні вироби",
-        "image": "images/варені-ковбасні-вироби/2.Делікатесна.jpg",
-        "htmlPage": "categories-html/vareni-kovbasni-vyroby.html"
+    "vareniKovbasy": {
+        "title": "Варені Ковбасни",
+        "image": "images/Варені/Варена-Боярська.jpg",
+        "htmlPage": "categories-html/vareni-kovbasy.html"
     },
-    "syrovyaleniKovbasniVyroby": {
-        "title": "Сиров'ялені ковбасні вироби",
-        "image": "images/сиров_ялені-ковбасні-вироби/2.Свинна-сиров_ялена.jpg",
-        "htmlPage": "categories-html/syrovyaleni-kovbasni-vyroby.html"
+    "zapecheniVyroby": {
+        "title": "Запечені Вироби",
+        "image": "images/Запечене/Хлібець-індичка.jpg",
+        "htmlPage": "categories-html/zapecheni.html"
     },
-    "napivKopcheniKovbasniVyroby": {
-        "title": "Копчено-варені, напів копчені ковбасні вироби",
-        "image": "images/копчено-варені-напів-копчені-ковбасні-вироби/12.Суха.jpg",
-        "htmlPage": "categories-html/napiv-kopcheni-kovbasni-vyroby.html"
+    "kovbaskyGrylyovi": {
+        "title": "Ковбаски Грильові",
+        "image": "images/Ковбаски-грильові/Ковбаски-з-зеленню.jpg",
+        "htmlPage": "categories-html/kovbasy-grylyovi.html"
     },
-    "kopcheniVyroby": {
-        "title": "Копчені вироби",
-        "image": "images/копчені-вироби/2.Балик-свинний.jpg",
-        "htmlPage": "categories-html/kopcheni-vyroby.html"
+    "kopchenoVareni": {
+        "title": "Копчено Варені",
+        "image": "images/Копчено-варені/Салямі-Київська.jpg",
+        "htmlPage": "categories-html/kopcheno-vareni.html"
     },
-    "kovbasyLiverniKrovyaniHlibtsiZeltsy": {
-        "title": "Ковбаси ліверні та кров'яні, хлібці, зельци",
-        "image": "images/ковбаси-ліверні-кров_яні-хлібці-зельци/1.Хлібець-Стрийський.jpg",
-        "htmlPage": "categories-html/kovbasy-liverni-krovyani-hlibtsi-zeltsy.html"
+    "kopchenosti": {
+        "title": "Копченості",
+        "image": "images/Копченоссті/Шинка-Свинна-копчена.jpg",
+        "htmlPage": "categories-html/kopchenosti.html"
     },
-    "sosyskySardelky": {
-        "title": "Сосиски, сардельки",
-        "image": "images/сосиски-сардельки/1.Сосиски-курячі-з-вершками.jpg",
-        "htmlPage": "categories-html/sosysky-sardelky.html"
+    "kormDlyaTvaryn": {
+        "title": "Корми Для Тварин",
+        "image": "images/Корми-для-тварин/Корм-для-тварин-вітамінний-зі-злаками.jpg",
+        "htmlPage": "categories-html/korm-dlya-tvaryn.html"
     },
-    "napivFabrykatyKovbaskyDlyaGrylya": {
-        "title": "Напів фабрикати м'ясні, Ковбаски для гриля",
-        "image": "images/напів-фабрикати-ковбаси-для-гриля/5.Ковбаски-Мюнхенські.jpg",
-        "htmlPage": "categories-html/napiv-fabrykaty-kovbasy-dlya-grylya.html"
+    "myasniDelikatesy": {
+        "title": "М'ясні делікатеси",
+        "image": "images/Мясні-делікатеси/Рулет-з-омлетом.jpg",
+        "htmlPage": "categories-html/myasni-delikatesy.html"
     },
-    "delikatesy": {
-        "title": "Делікатеси",
-        "image": "images/делікатеси/8.Рулет-Колібрі-курячий.jpg",
-        "htmlPage": "categories-html/delikatesy.html"
+    "saloZeltsyKrovyanky": {
+        "title": "Сало Зельци Кров'янки",
+        "image": "images/Сало-зельци-кровянки/Сало-Копчене.jpg",
+        "htmlPage": "categories-html/salo-zeltsy-krovyanky.html"
     },
-    "tvarynnyiKorm": {
-        "title": "Тваринний корм",
-        "image": "images/тваринний-корм/корм-для-тварин-ліверний.jpg",
-        "htmlPage": "categories-html/tvarynnyi-korm.html"
+    "sardelkySosysky": {
+        "title": "Сардельки Сосиски",
+        "image": "images/Сардельки-сосиски/Сосиска-з-молоком.jpg",
+        "htmlPage": "categories-html/sardelky-sosysky.html"
+    },
+    "syrokopcheni": {
+        "title": "Сирокопчені",
+        "image": "images/Сирокопчені/Італійська.jpg",
+        "htmlPage": "categories-html/syrokopcheni.html"
+    },
+    "shashlyky": {
+        "title": "Шашлики",
+        "image": "images/Шашлики-як-полуфабрикати/DSC_2552.jpg",
+        "htmlPage": "categories-html/shashlyky.html"
+    },
+    "inshe": {
+        "title": "Інше",
+        "image": "images/Інше/Паштет-свинний-печіночний.jpg",
+        "htmlPage": "categories-html/inshe.html"
     }
 }

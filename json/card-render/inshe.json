@@ -1,0 +1,22 @@
+{
+    "grechnaKashaZMyasom": {
+        "title": "Гречена Каша З М'ясом",
+        "image": "../images/Інше/Гречена-каша-з-мясом.jpg"
+    },
+    "gulyashMyasnyiZKartopleyu": {
+        "title": "Гуляш М'ясний З Картоплею",
+        "image": "../images/Інше/Гуляш-мясний-з-картоплею.jpg"
+    },
+    "pashtetSvynnyiPechinochnyi": {
+        "title": "Паштет Свинний Печіночний",
+        "image": "../images/Інше/Паштет-свинний-печіночний.jpg"
+    },
+    "pashtetSvynnyi": {
+        "title": "Паштет Свинний",
+        "image": "../images/Інше/Паштет-Свинний.jpg"
+    },
+    "tushonkaSvynna": {
+        "title": "Тушонка Свинна",
+        "image": "../images/Інше/Тушонка-Свинна.jpg"
+    }
+}
