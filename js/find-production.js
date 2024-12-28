@@ -26,6 +26,7 @@ function renderExamples(examples) {
         
         image.setAttribute('src', example.image);
         image.setAttribute('alt', example.alt);
+        image.setAttribute('loading', 'lazy');
         image.classList.add('example__image');
 
         title.textContent = example.title;
