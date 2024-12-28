@@ -1,6 +1,22 @@
 {
-    "grechnaKashaZMyasom": {
-        "title": "Гречена Каша З М'ясом",
-        "image": "../images/Інше/Гречена-каша-з-мясом.jpg"
+    "shashlyk1": {
+        "title": "Шашлик",
+        "image": "../images/Шашлики-як-полуфабрикати/DSC_2549.webp"
     },
+    "shashlyk2": {
+        "title": "Шашлик",
+        "image": "../images/Шашлики-як-полуфабрикати/DSC_2552.webp"
+    },
+    "shashlyk3": {
+        "title": "Шашлик",
+        "image": "../images/Шашлики-як-полуфабрикати/DSC_2561.webp"
+    },
+    "shashlyk4": {
+        "title": "Шашлик",
+        "image": "../images/Шашлики-як-полуфабрикати/DSC_2563.webp"
+    },
+    "shashlyk5": {
+        "title": "Шашлик",
+        "image": "../images/Шашлики-як-полуфабрикати/DSC_3758.webp"
+    }
 }

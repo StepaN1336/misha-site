@@ -1,6 +1,14 @@
 {
-    "grechnaKashaZMyasom": {
-        "title": "Гречена Каша З М'ясом",
-        "image": "../images/Інше/Гречена-каша-з-мясом.jpg"
+    "balykSvynnyiKopchenyi": {
+        "title": "Балик Свинний Копчений",
+        "image": "../images/Копченості/Балик-свинний-копчений.webp"
     },
+    "pidcherevenaKopchena": {
+        "title": "Підчеревина Копчена",
+        "image": "../images/Копченості/Підчеревина-копчена.webp"
+    },
+    "shynkaSvynnaKopchena": {
+        "title": "Шинка Свинна Копчена",
+        "image": "../images/Копченості/Шинка-Свинна-копчена.webp"
+    }
 }

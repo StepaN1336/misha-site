@@ -1,6 +1,34 @@
 {
-    "grechnaKashaZMyasom": {
-        "title": "Гречена Каша З М'ясом",
-        "image": "../images/Інше/Гречена-каша-з-мясом.jpg"
+    "zeltsDomashnyi": {
+        "title": "Зельц Домашній",
+        "image": "../images/Сало-зельци-кровянки/Зельц-домашній.webp"
     },
+    "zeltsKurachyi": {
+        "title": "Зельц Курячий",
+        "image": "../images/Сало-зельци-кровянки/Зельц-Курячий.webp"
+    },
+    "krovyankaDomashnya": {
+        "title": "Кров'янка Домашня",
+        "image": "../images/Сало-зельци-кровянки/Кровянка-домашня.webp"
+    },
+    "saloVPaprytsi": {
+        "title": "Сало В Паприці",
+        "image": "../images/Сало-зельци-кровянки/Сало-в-паприці.webp"
+    },
+    "saloZPertsem": {
+        "title": "Сало З Перцем",
+        "image": "../images/Сало-зельци-кровянки/Сало-з-перцем.webp"
+    },
+    "saloZakusochne": {
+        "title": "Сало Закусочне",
+        "image": "../images/Сало-зельци-кровянки/Сало-закусочне.webp"
+    },
+    "saloKopchene": {
+        "title": "Сало Копчене",
+        "image": "../images/Сало-зельци-кровянки/Сало-Копчене.webp"
+    },
+    "smalets": {
+        "title": "Смалець",
+        "image": "../images/Сало-зельци-кровянки/Смалець.webp"
+    }
 }

@@ -1,6 +1,18 @@
 {
-    "grechnaKashaZMyasom": {
-        "title": "Гречена Каша З М'ясом",
-        "image": "../images/Інше/Гречена-каша-з-мясом.jpg"
+    "kovbaskyBiliZZelennyu": {
+        "title": "Ковбаски Білі З Зеленню",
+        "image": "../images/Ковбаски-грильові/Ковбаски-білі-з-зеленню.webp"
     },
+    "kovbaskyZZelennyu": {
+        "title": "Ковбаски З Зеленню",
+        "image": "../images/Ковбаски-грильові/Ковбаски-з-зеленню.webp"
+    },
+    "kovbaskyMyunhenski": {
+        "title": "Ковбаски Мюнхенські",
+        "image": "../images/Ковбаски-грильові/Ковбаски-Мюнхенські.webp"
+    },
+    "kovbaskyShashlychni": {
+        "title": "Ковбаски Шашличні",
+        "image": "../images/Ковбаски-грильові/Ковбаски-Шашличні.webp"
+    }
 }
