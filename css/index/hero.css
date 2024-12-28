@@ -13,6 +13,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0 0 200px 0;
 }
 
 .hero__wrapper {
@@ -29,7 +30,7 @@
 }
 
 .hero__title {
-    color: #ffffff;
+    color: #fff;
     font-size: 40px;
     font-family: 'Lemon', serif;
     padding: 0 0 10px 0;
@@ -37,6 +38,7 @@
 }
 
 .hero__description {
+    color: #fff;
     display: none;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
@@ -62,7 +64,6 @@
     }
 
     .hero__description {
-        color: #FFFFFF;
         font-size: 22px;
         font-family: 'Lemon', serif;
         max-width: 780px;
