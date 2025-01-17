@@ -1,22 +1,22 @@
 {
-    "shashlyk1": {
-        "title": "Шашлик",
-        "image": "../images/Шашлики-як-полуфабрикати/DSC_2549.webp"
+    "shashlykZelenyi": {
+        "title": "Шашлик Зелений",
+        "image": "../images/Шашлики-як-полуфабрикати/Шашлик-Зелений.webp"
     },
-    "shashlyk2": {
-        "title": "Шашлик",
-        "image": "../images/Шашлики-як-полуфабрикати/DSC_2552.webp"
+    "shashlykZSvynyny": {
+        "title": "Шашлик з Свинини",
+        "image": "../images/Шашлики-як-полуфабрикати/Шашлик-З-Свинини.webp"
     },
-    "shashlyk3": {
-        "title": "Шашлик",
-        "image": "../images/Шашлики-як-полуфабрикати/DSC_2561.webp"
+    "shashlykZKryla": {
+        "title": "Шашлик з Крила",
+        "image": "../images/Шашлики-як-полуфабрикати/Шашлик-З-Крила.webp"
     },
-    "shashlyk4": {
-        "title": "Шашлик",
-        "image": "../images/Шашлики-як-полуфабрикати/DSC_2563.webp"
+    "shashlykZBedraKurky": {
+        "title": "Шашлик з Бедра Курки",
+        "image": "../images/Шашлики-як-полуфабрикати/Шашлик-З-Бедра-Курки.webp"
     },
-    "shashlyk5": {
-        "title": "Шашлик",
-        "image": "../images/Шашлики-як-полуфабрикати/DSC_3758.webp"
+    "shashlykZOshyika": {
+        "title": "Шашлик з Ошийка",
+        "image": "../images/Шашлики-як-полуфабрикати/Шашлик-З-Ошийка.webp"
     }
 }

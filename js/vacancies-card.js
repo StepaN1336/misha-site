@@ -54,10 +54,14 @@ function cardRender(json) {
 
                     vacancyCard.appendChild(vacancyTitle);
                     vacancyCard.appendChild(vacancyDescription);
-                    vacancyCard.appendChild(weRequireText);
-                    vacancyCard.appendChild(requirementsList);
-                    vacancyCard.appendChild(weOfferText);
-                    vacancyCard.appendChild(offersList);
+                    if(!requirements.length < 1) {
+                        vacancyCard.appendChild(weRequireText);
+                        vacancyCard.appendChild(requirementsList);
+                    }
+                    if(!offers.length < 1) {
+                        vacancyCard.appendChild(weOfferText);
+                        vacancyCard.appendChild(offersList);
+                    }
                     vacanciesContainer.appendChild(vacancyCard);
                     vacanciesContainer.appendChild(hr);
                 }

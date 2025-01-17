@@ -1,0 +1,6 @@
+    "example2": {
+        "name": "example2",
+        "description": "Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.",
+        "requirements": ["requirment1", "requirment2", "requirment3"],
+        "offers": ["offer1", "offer2", "offer3"]
+    }

@@ -31,7 +31,7 @@
     },
     "myasniDelikatesy": {
         "title": "М'ясні делікатеси",
-        "image": "images/Мясні-делікатеси/Рулет-з-омлетом.webp",
+        "image": "images/Мясні-делікатеси/Рулет-шпинатний-з-паштетом.webp",
         "htmlPage": "categories-html/myasni-delikatesy.html"
     },
     "saloZeltsyKrovyanky": {
@@ -51,7 +51,7 @@
     },
     "shashlyky": {
         "title": "Шашлики",
-        "image": "images/Шашлики-як-полуфабрикати/DSC_2552.webp",
+        "image": "images/Шашлики-як-полуфабрикати/Шашлик-З-Свинини.webp",
         "htmlPage": "categories-html/shashlyky.html"
     },
     "inshe": {

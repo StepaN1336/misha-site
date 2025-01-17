@@ -1,32 +1,8 @@
 {
     "example1": {
-        "name": "example1",
-        "description": "Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.",
-        "requirements": ["requirment1", "requirment2", "requirment3"],
-        "offers": ["offer1", "offer2", "offer3"]
-    },
-    "example2": {
-        "name": "example2",
-        "description": "Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.",
-        "requirements": ["requirment1", "requirment2", "requirment3"],
-        "offers": ["offer1", "offer2"]
-    },
-    "example3": {
-        "name": "example3",
-        "description": "Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.",
-        "requirements": ["requirment1", "requirment2", "requirment3"],
-        "offers": ["offer1", "offer2", "offer3"]
-    },
-    "example4": {
-        "name": "example4",
-        "description": "Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.",
-        "requirements": ["requirment1", "requirment2", "requirment3"],
-        "offers": ["offer1", "offer2", "offer3"]
-    },
-    "example5": {
-        "name": "example5",
-        "description": "Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing elit,Lorem ipsum dolor sit amet.",
-        "requirements": ["requirment1", "requirment2", "requirment3"],
-        "offers": ["offer1", "offer2", "offer3", "offer4"]
+        "name": "Наразі вакансій немає",
+        "description": "Просимо вибачення, але на даний момент часу ми не шукаємо нових співробітників. Однак ми постійно розширюємо колектив і вакансія незабаром з'явиться. Слідкуйте за новинами та моніторте вакансії на поточній сторонці, бажаємо всього найкращого!",
+        "requirements": [],
+        "offers": []
     }
 }
