@@ -1,5 +1,7 @@
 import { cardRender } from './production-card-render.js';
 document.addEventListener('partialsLoaded', () => {
     import('./header.js');
-    cardRender('../json/card-render/inshe.json', "Інше");
+    setTimeout(() => {
+        cardRender('../json/card-render/inshe.json', "Інше");
+    }, 300);
 });
