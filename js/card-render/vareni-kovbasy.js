@@ -3,5 +3,5 @@ document.addEventListener('partialsLoaded', () => {
     import('./header.js');
     setTimeout(() => {
         cardRender('../json/card-render/vareni-kovbasy.json', "Варені Ковбаси");
-    }, 400);
+    }, 600);
 });

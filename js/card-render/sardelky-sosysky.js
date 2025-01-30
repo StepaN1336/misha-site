@@ -3,5 +3,5 @@ document.addEventListener('partialsLoaded', () => {
     import('./header.js');
     setTimeout(() => {
         cardRender('../json/card-render/sardelky-sosysky.json', "Сардельки, Сосиски");
-    }, 400);
+    }, 600);
 });
