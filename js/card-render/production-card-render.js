@@ -27,7 +27,9 @@ export function cardRender(json, productionTitle) {
                     categoryCard.appendChild(categoryImage);
                     categoryCard.appendChild(categoryTitle);
 
-                    bakingContainer.appendChild(categoryCard);
+                    setTimeout(() => {
+                        bakingContainer.appendChild(categoryCard);
+                    }, 30);
                 }
             }
 
