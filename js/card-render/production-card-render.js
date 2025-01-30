@@ -59,21 +59,13 @@ export function cardRender(json, productionTitle) {
 
     function lazyLoadImages() {
         const images = document.querySelectorAll('.lazy-load');
-        const maxConcurrentLoad = 3;
-        let activeLoads = 0;
 
         const observer = new IntersectionObserver((entries, obs) => {
             entries.forEach(entry => {
-                if (entry.isIntersecting && activeLoads < maxConcurrentLoad) {
+                if (entry.isIntersecting) {
                     const img = entry.target;
                     img.src = img.dataset.src;
                     img.classList.remove('lazy-load');
-                    activeLoads++;
-
-                    img.onload = () => {
-                        activeLoads--;
-                    };
-
                     obs.unobserve(img);
                 }
             });
@@ -81,8 +73,6 @@ export function cardRender(json, productionTitle) {
 
         images.forEach(img => observer.observe(img));
     }
-
-
 
     loadMoreBtn.addEventListener('click', renderChunk);
 }
