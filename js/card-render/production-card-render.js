@@ -1,4 +1,4 @@
-export function cardRender(json, productionTitle) {
+export async function cardRender(json, productionTitle) {
     const bakingContainer = document.querySelector('.production__cards-container');
     const productTitle = document.querySelector('.production__title');
     const loadMoreBtn = document.createElement('button');
@@ -19,13 +19,14 @@ export function cardRender(json, productionTitle) {
     let index = 0;
     const chunkSize = 10;
 
-    fetch(json)
-        .then(response => response.json())
-        .then(jsonContent => {
-            items = Object.values(jsonContent);
-            renderChunk();
-        })
-        .catch(err => console.error('Помилка читання файлу:', err));
+    try {
+        const response = await fetch(json);
+        const jsonContent = await response.json();
+        items = Object.values(jsonContent);
+        renderChunk();
+    } catch (err) {
+        console.error('Помилка читання файлу:', err);
+    }
 
     function renderChunk() {
         const fragment = document.createDocumentFragment();
