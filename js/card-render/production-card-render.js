@@ -1,79 +1,36 @@
-export async function cardRender(json, productionTitle) {
+export function cardRender(json, productionTitle) {
+
     const bakingContainer = document.querySelector('.production__cards-container');
     const productTitle = document.querySelector('.production__title');
-    const loadMoreBtn = document.createElement('button');
-
     productTitle.textContent = productionTitle;
-    bakingContainer.innerHTML = '';
 
-    const loadMoreContainer = document.createElement('div');
-    loadMoreContainer.classList.add('production__load-more-container');
+    fetch(json)
+        .then(response => response.json())
+        .then(jsonContent => {
+            for (const categoryKey in jsonContent) {
+                if (jsonContent.hasOwnProperty(categoryKey)) {
+                    const category = jsonContent[categoryKey];
+                    const title = category.title;
+                    const image = category.image;
 
-    loadMoreBtn.textContent = 'Завантажити ще';
-    loadMoreBtn.classList.add('production__load-more-btn');
+                    const categoryCard = document.createElement('div');
+                    categoryCard.classList.add('production__card');
 
-    loadMoreContainer.appendChild(loadMoreBtn);
-    bakingContainer.after(loadMoreContainer);
+                    const categoryImage = document.createElement('img');
+                    categoryImage.setAttribute('src', image);
+                    categoryImage.classList.add('production__card-image');
 
-    let items = [];
-    let index = 0;
-    const chunkSize = 10;
+                    const categoryTitle = document.createElement('h2');
+                    categoryTitle.textContent = title;
+                    categoryTitle.classList.add('production__card-title');
 
-    try {
-        const response = await fetch(json);
-        const jsonContent = await response.json();
-        items = Object.values(jsonContent);
-        renderChunk();
-    } catch (err) {
-        console.error('Помилка читання файлу:', err);
-    }
+                    categoryCard.appendChild(categoryImage);
+                    categoryCard.appendChild(categoryTitle);
 
-    function renderChunk() {
-        const fragment = document.createDocumentFragment();
-        for (let i = index; i < index + chunkSize && i < items.length; i++) {
-            const { title, image } = items[i];
-
-            const categoryCard = document.createElement('div');
-            categoryCard.classList.add('production__card');
-
-            const categoryImage = document.createElement('img');
-            categoryImage.dataset.src = image;
-            categoryImage.setAttribute('alt', title);
-            categoryImage.classList.add('production__card-image', 'lazy-load');
-
-            const categoryTitle = document.createElement('h2');
-            categoryTitle.textContent = title;
-            categoryTitle.classList.add('production__card-title');
-
-            categoryCard.append(categoryImage, categoryTitle);
-            fragment.appendChild(categoryCard);
-        }
-        bakingContainer.appendChild(fragment);
-
-        index += chunkSize;
-        if (index >= items.length) {
-            loadMoreBtn.style.display = 'none';
-        }
-
-        lazyLoadImages();
-    }
-
-    function lazyLoadImages() {
-        const images = document.querySelectorAll('.lazy-load');
-
-        const observer = new IntersectionObserver((entries, obs) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const img = entry.target;
-                    img.src = img.dataset.src;
-                    img.classList.remove('lazy-load');
-                    obs.unobserve(img);
+                    bakingContainer.appendChild(categoryCard);
                 }
-            });
-        }, { rootMargin: '200px', threshold: 0.1 });
+            }
 
-        images.forEach(img => observer.observe(img));
-    }
-
-    loadMoreBtn.addEventListener('click', renderChunk);
+        })
+        .catch(err => console.error('Помилка читання файлу:', err));
 }
