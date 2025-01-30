@@ -3,5 +3,5 @@ document.addEventListener('partialsLoaded', () => {
     import('./header.js');
     setTimeout(() => {
         cardRender('../json/card-render/kopchenosti.json', "Копченості");
-    }, 300);
+    }, 200);
 });

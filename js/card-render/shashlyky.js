@@ -3,5 +3,5 @@ document.addEventListener('partialsLoaded', () => {
     import('./header.js');
     setTimeout(() => {
         cardRender('../json/card-render/shashlyky.json', "Шашлик");
-    }, 300);
+    }, 200);
 });

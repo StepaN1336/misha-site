@@ -3,5 +3,5 @@ document.addEventListener('partialsLoaded', () => {
     import('./header.js');
     setTimeout(() => {
         cardRender('../json/card-render/korm-dlya-tvaryn.json', "Корм Для Тварин");
-    }, 300);
+    }, 100);
 });

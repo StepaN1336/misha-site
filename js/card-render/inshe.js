@@ -3,5 +3,5 @@ document.addEventListener('partialsLoaded', () => {
     import('./header.js');
     setTimeout(() => {
         cardRender('../json/card-render/inshe.json', "Інше");
-    }, 300);
+    }, 200);
 });

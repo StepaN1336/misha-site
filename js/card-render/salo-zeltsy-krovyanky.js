@@ -3,5 +3,5 @@ document.addEventListener('partialsLoaded', () => {
     import('./header.js');
     setTimeout(() => {
         cardRender('../json/card-render/salo-zeltsy-krovyanky.json', "Сало, Зельци, Кров'янки");
-    }, 300);
+    }, 400);
 });
