@@ -1,46 +1,46 @@
-{
-    "sardelkaBavarskaZSyrom": {
+[
+    {
         "title": "Сарделька Баварська з Сиром",
         "image": "../images/Сардельки-сосиски/Сарделька-Баварська-з-сиром.webp"
     },
-    "sardelkaDelikatesna": {
+    {
         "title": "Сарделька Делікатесна",
         "image": "../images/Сардельки-сосиски/Сарделька-делікатесна.webp"
     },
-    "sardelkaSvynna": {
+    {
         "title": "Сарделька Свинна",
         "image": "../images/Сардельки-сосиски/Сарделька-свинна.webp"
     },
-    "sardelkaSokovyta": {
+    {
         "title": "Сарделька Соковита",
         "image": "../images/Сардельки-сосиски/Сарделька-Соковита.webp"
     },
-    "sardelkaChempion": {
+    {
         "title": "Сарделька Чемпіон",
         "image": "../images/Сардельки-сосиски/Сарделька-Чемпіон.webp"
     },
-    "sardelkaYalovycha": {
+    {
         "title": "Сарделька Яловича",
         "image": "../images/Сардельки-сосиски/Сарделька-яловича.webp"
     },
-    "sosyskaElitna": {
+    {
         "title": "Сосиска Елітна",
         "image": "../images/Сардельки-сосиски/Сосиска-елітна.webp"
     },
-    "sosyskaZMolokom": {
+    {
         "title": "Сосиска з Молоком",
         "image": "../images/Сардельки-сосиски/Сосиска-з-молоком.webp"
     },
-    "sosyskaHotDog": {
+    {
         "title": "Сосиска Хот-Дог",
         "image": "../images/Сардельки-сосиски/Сосиска-Хот-дог.webp"
     },
-    "sosyskyIndychi": {
+    {
         "title": "Сосиски Індичі",
         "image": "../images/Сардельки-сосиски/Сосиски-Індичі.webp"
     },
-    "sosyskyKuryachiZVershkamy": {
+    {
         "title": "Сосиски Курячі з Вершками",
         "image": "../images/Сардельки-сосиски/Сосиски-курячі-з-вершками.webp"
     }
-}
+]

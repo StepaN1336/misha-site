@@ -1,34 +1,34 @@
-{
-    "ruletZOmletom": {
+[
+    {
         "title": "Рулет з Омлетом",
         "image": "../images/Мясні-делікатеси/Рулет-з-омлетом.webp"
     },
-    "ruletZSyromTaShpynatom": {
+    {
         "title": "Рулет з Сиром Та Шпинатом",
         "image": "../images/Мясні-делікатеси/Рулет-з-сиром-та-шпинатом.webp"
     },
-    "ruletKolibri": {
+    {
         "title": "Рулет Колібрі",
         "image": "../images/Мясні-делікатеси/Рулет-Колібрі.webp"
     },
-    "ruletMyasnyiZapechenyi": {
+    {
         "title": "Рулет Мясний Запечений",
         "image": "../images/Мясні-делікатеси/Рулет-мясний-запечений.webp"
     },
-    "ruletSyrnyi": {
+    {
         "title": "Рулет Сирний",
         "image": "../images/Мясні-делікатеси/Рулет-сирний.webp"
     },
-    "ruletSmakolyk": {
+    {
         "title": "Рулет Смаколик",
         "image": "../images/Мясні-делікатеси/Рулет-Смаколик.webp"
     },
-    "ruletShpynatnyiZPashtetom": {
+    {
         "title": "Рулет Шпинатний з Паштетом",
         "image": "../images/Мясні-делікатеси/Рулет-шпинатний-з-паштетом.webp"
     },
-    "ruletPresovanaVFormi": {
+    {
         "title": "Рулька Пресована в Формі",
         "image": "../images/Мясні-делікатеси/Рулька-пресована-в-формі.webp"
     }
-}
+]

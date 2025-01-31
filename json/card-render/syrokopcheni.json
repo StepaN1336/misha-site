@@ -1,34 +1,34 @@
-{
-    "italiyska": {
+[
+    {
         "title": "Італійська",
         "image": "../images/Сирокопчені/Італійська.webp"
     },
-    "kovbasaZolotystaSyrovyalena": {
+    {
         "title": "Ковбаса Золотиста Сиров'ялена",
         "image": "../images/Сирокопчені/Ковбаса-золотиста-сировялена.webp"
     },
-    "kovbasaMilanoSyrovyalena": {
+    {
         "title": "Ковбаса Мілано Сиров'ялена",
         "image": "../images/Сирокопчені/Ковбаса-Мілано-сировялена.webp"
     },
-    "pidcherevynaPoZakarpatsky": {
+    {
         "title": "Підчеревина По-Закарпатськи",
         "image": "../images/Сирокопчені/Підчеревина-по-закарпатськи.webp"
     },
-    "svynnaSyrovyalena": {
+    {
         "title": "Свинна Сиров'ялена",
         "image": "../images/Сирокопчені/Свинна-сировялена.webp"
     },
-    "tirloskaSyrovyalena": {
+    {
         "title": "Тірольська Сиров'ялена",
         "image": "../images/Сирокопчені/Тірольська-сировялена.webp"
     },
-    "ukrainskaSyrovyalena": {
+    {
         "title": "Українська Сиров'ялена",
         "image": "../images/Сирокопчені/Українська-Сировялена.webp"
     },
-    "yalovyschiPalochky": {
+    {
         "title": "Яловичі Палочки",
         "image": "../images/Сирокопчені/Яловичі-палочки.webp"
     }
-}
+]

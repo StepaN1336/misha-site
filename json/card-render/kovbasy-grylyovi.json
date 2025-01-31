@@ -1,18 +1,18 @@
-{
-    "kovbaskyBiliZZelennyu": {
+[
+    {
         "title": "Ковбаски Білі з Зеленню",
         "image": "../images/Ковбаски-грильові/Ковбаски-білі-з-зеленню.webp"
     },
-    "kovbaskyZZelennyu": {
+    {
         "title": "Ковбаски з Зеленню",
         "image": "../images/Ковбаски-грильові/Ковбаски-з-зеленню.webp"
     },
-    "kovbaskyMyunhenski": {
+    {
         "title": "Ковбаски Мюнхенські",
         "image": "../images/Ковбаски-грильові/Ковбаски-Мюнхенські.webp"
     },
-    "kovbaskyShashlychni": {
+    {
         "title": "Ковбаски Шашличні",
         "image": "../images/Ковбаски-грильові/Ковбаски-Шашличні.webp"
     }
-}
+]
