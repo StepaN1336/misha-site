@@ -29,7 +29,7 @@ export function cardRender(json, productionTitle) {
 
                     setTimeout(() => {
                         bakingContainer.appendChild(categoryCard);
-                    }, 30);
+                    }, 70);
                 }
             }
 
