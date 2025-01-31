@@ -1,53 +1,26 @@
-export async function cardRender(json, productionTitle) {
+export async function cardRender(jsonUrl, pageTitle) {
+    const productPageTitle = document.querySelector('.production__title');
+    productPageTitle.textContent = pageTitle;
+
     try {
-        const bakingContainer = document.querySelector('.production__cards-container');
-        const productTitle = document.querySelector('.production__title');
-
-        if (!bakingContainer || !productTitle) {
-            console.error('Помилка: Контейнери для рендерингу не знайдено.');
-            return;
+        const response = await fetch(jsonUrl);
+        if (!response.ok) throw new Error('Failed to fetch data');
+        
+        const products = await response.json();
+        const container = document.querySelector('.production__cards-container');
+        if (!container) throw new Error('Container not found');
+        
+        if (Array.isArray(products)) {
+            container.innerHTML = products.map(product => `
+                <div class="production__card">
+                    <img src="${product.image}" alt="${product.title}" class="production__card-image" loading="lazy">
+                    <h3 class="production__card-title">${product.title}</h3>
+                </div>
+            `).join('');
+        } else {
+            console.error('Products is not an array:', products);
         }
-
-        productTitle.textContent = productionTitle;
-
-        const response = await fetch(json);
-        if (!response.ok) {
-            throw new Error(`HTTP помилка: ${response.status}`);
-        }
-
-        const jsonContent = await response.json();
-
-        bakingContainer.innerHTML = '';
-
-        const fragment = document.createDocumentFragment();
-
-        for (const categoryKey in jsonContent) {
-            if (jsonContent.hasOwnProperty(categoryKey)) {
-                const category = jsonContent[categoryKey];
-                const title = category.title;
-                const image = category.image;
-
-                const categoryCard = document.createElement('div');
-                categoryCard.classList.add('production__card');
-
-                const categoryImage = document.createElement('img');
-                categoryImage.setAttribute('src', image);
-                categoryImage.classList.add('production__card-image');
-
-                const categoryTitle = document.createElement('h2');
-                categoryTitle.textContent = title;
-                categoryTitle.classList.add('production__card-title');
-
-                categoryCard.appendChild(categoryImage);
-                categoryCard.appendChild(categoryTitle);
-
-                fragment.appendChild(categoryCard);
-            }
-        }
-
-        bakingContainer.appendChild(fragment);
-
-    } catch (err) {
-        console.error('Помилка рендерингу:', err);
+    } catch (error) {
+        console.error(error);
     }
 }

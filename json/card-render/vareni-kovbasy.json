@@ -1,34 +1,34 @@
-{
-    "varenaBoyarska": {
+[
+    {
         "title": "Варена Боярська",
         "image": "../images/Варені/Варена-Боярська.webp"
     },
-    "varenaDelikatesna": {
+    {
         "title": "Варена Делікатесна",
         "image": "../images/Варені/Варена-Делікатесна.webp"
     },
-    "varenaLikarska": {
+    {
         "title": "Варена Лікарська",
         "image": "../images/Варені/Варена-Лікарська.webp"
     },
-    "varenaMarselska": {
+    {
         "title": "Варена Марсельська",
         "image": "../images/Варені/Варена-Марсельська.webp"
     },
-    "varenaOlivye": {
+    {
         "title": "Варена Олів'є",
         "image": "../images/Варені/Варена-Олівє.webp"
     },
-    "varenaPanska": {
+    {
         "title": "Варена Панська",
         "image": "../images/Варені/Варена-панська.webp"
     },
-    "varenaPrezydentska": {
+    {
         "title": "Варена Президентська",
         "image": "../images/Варені/Варена-Президентська.webp"
     },
-    "varenaSmetankova": {
+    {
         "title": "Варена Сметанкова",
         "image": "../images/Варені/Варена-сметанкова.webp"
     }
-}
+]

@@ -1,42 +1,42 @@
-{
-    "domashnyaPechena": {
+[
+    {
         "title": "Домашня Печена",
         "image": "../images/Запечене/Домашня-печена.webp"
     },
-    "pechinkovaPoSelyansky": {
+    {
         "title": "Печінкова По-Селянськи",
         "image": "../images/Запечене/Печінкова-по-селянськи.webp"
     },
-    "pidcherevynaZapechena": {
+    {
         "title": "Підчеревина Запечена",
         "image": "../images/Запечене/Підчеревина-запечена.webp"
     },
-    "smazhenaKraftova": {
+    {
         "title": "Смажена Крафтова",
         "image": "../images/Запечене/Смажена-крафтова.webp"
     },
-    "hlibetsIndychka": {
+    {
         "title": "Хлібець Індичка",
         "image": "../images/Запечене/Хлібець-індичка.webp"
     },
-    "hlibetsKachka": {
+    {
         "title": "Хлібець Качка",
         "image": "../images/Запечене/Хлібець-Качка.webp"
     },
-    "hlibetsKrolyk": {
+    {
         "title": "Хлібець Кролик",
         "image": "../images/Запечене/Хлібець-Кролик.webp"
     },
-    "hlibetsStryiskyi": {
+    {
         "title": "Хлібець Стрийський",
         "image": "../images/Запечене/Хлібець-стрийський.webp"
     },
-    "shynkaZapechena": {
+    {
         "title": "Шинка Запечена",
         "image": "../images/Запечене/Шинка-запечена.webp"
     },
-    "shponderZapechenyi": {
+    {
         "title": "Шпондер Запечений",
         "image": "../images/Запечене/Шпондер-запечений.webp"
     }
-}
+]
