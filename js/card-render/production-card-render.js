@@ -19,6 +19,8 @@ export async function cardRender(json, productionTitle) {
 
         bakingContainer.innerHTML = '';
 
+        const fragment = document.createDocumentFragment();
+
         for (const categoryKey in jsonContent) {
             if (jsonContent.hasOwnProperty(categoryKey)) {
                 const category = jsonContent[categoryKey];
@@ -39,9 +41,12 @@ export async function cardRender(json, productionTitle) {
                 categoryCard.appendChild(categoryImage);
                 categoryCard.appendChild(categoryTitle);
 
-                bakingContainer.appendChild(categoryCard);
+                fragment.appendChild(categoryCard);
             }
         }
+
+        bakingContainer.appendChild(fragment);
+
     } catch (err) {
         console.error('Помилка рендерингу:', err);
     }
