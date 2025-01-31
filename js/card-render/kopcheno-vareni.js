@@ -1,7 +1,6 @@
 import { cardRender } from './production-card-render.js';
+
 document.addEventListener('partialsLoaded', () => {
-    window.onload = function() { 
-        import('./header.js');
-        cardRender('../json/card-render/kopcheno-vareni.json', "Копчено Варені");
-    }
+    import('./header.js');
+    cardRender('../json/card-render/kopcheno-vareni.json', "Копчено Варені");
 });
