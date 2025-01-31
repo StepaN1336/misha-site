@@ -1,38 +1,48 @@
-export function cardRender(json, productionTitle) {
+export async function cardRender(json, productionTitle) {
+    try {
+        const bakingContainer = document.querySelector('.production__cards-container');
+        const productTitle = document.querySelector('.production__title');
 
-    const bakingContainer = document.querySelector('.production__cards-container');
-    const productTitle = document.querySelector('.production__title');
-    productTitle.textContent = productionTitle;
+        if (!bakingContainer || !productTitle) {
+            console.error('Помилка: Контейнери для рендерингу не знайдено.');
+            return;
+        }
 
-    fetch(json)
-        .then(response => response.json())
-        .then(jsonContent => {
-            for (const categoryKey in jsonContent) {
-                if (jsonContent.hasOwnProperty(categoryKey)) {
-                    const category = jsonContent[categoryKey];
-                    const title = category.title;
-                    const image = category.image;
+        productTitle.textContent = productionTitle;
 
-                    const categoryCard = document.createElement('div');
-                    categoryCard.classList.add('production__card');
+        const response = await fetch(json);
+        if (!response.ok) {
+            throw new Error(`HTTP помилка: ${response.status}`);
+        }
 
-                    const categoryImage = document.createElement('img');
-                    categoryImage.setAttribute('src', image);
-                    categoryImage.classList.add('production__card-image');
+        const jsonContent = await response.json();
 
-                    const categoryTitle = document.createElement('h2');
-                    categoryTitle.textContent = title;
-                    categoryTitle.classList.add('production__card-title');
+        bakingContainer.innerHTML = '';
 
-                    categoryCard.appendChild(categoryImage);
-                    categoryCard.appendChild(categoryTitle);
+        for (const categoryKey in jsonContent) {
+            if (jsonContent.hasOwnProperty(categoryKey)) {
+                const category = jsonContent[categoryKey];
+                const title = category.title;
+                const image = category.image;
 
-                    setTimeout(() => {
-                        bakingContainer.appendChild(categoryCard);
-                    }, 70);
-                }
+                const categoryCard = document.createElement('div');
+                categoryCard.classList.add('production__card');
+
+                const categoryImage = document.createElement('img');
+                categoryImage.setAttribute('src', image);
+                categoryImage.classList.add('production__card-image');
+
+                const categoryTitle = document.createElement('h2');
+                categoryTitle.textContent = title;
+                categoryTitle.classList.add('production__card-title');
+
+                categoryCard.appendChild(categoryImage);
+                categoryCard.appendChild(categoryTitle);
+
+                bakingContainer.appendChild(categoryCard);
             }
-
-        })
-        .catch(err => console.error('Помилка читання файлу:', err));
+        }
+    } catch (err) {
+        console.error('Помилка рендерингу:', err);
+    }
 }
