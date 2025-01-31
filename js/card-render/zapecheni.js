@@ -1,7 +1,7 @@
 import { cardRender } from './production-card-render.js';
 document.addEventListener('partialsLoaded', () => {
-    document.addEventListener('DOMContentLoaded', () => {
+    window.onload = function() { 
         import('./header.js');
         cardRender('../json/card-render/zapecheni.json', "Запечені Вироби");
-    })
+    }
 });
