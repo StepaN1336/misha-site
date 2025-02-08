@@ -5,6 +5,7 @@
 
 .production__title {
   padding: 10px 0 0 0;
+  text-align: center;
 }
 
 .production__categories-cards {
@@ -12,6 +13,10 @@
   flex-wrap: wrap;
   gap: 20px;
   padding: 30px 0 30px 20px;
+}
+
+.skeleton {
+  min-height: 1000px;
 }
 
 .production__card-link {
@@ -26,10 +31,11 @@
 
 .production__category-card {
   background-size: cover;
-  min-height: 300px;
+  height: 300px;
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
+  aspect-ratio: 1.4 / 1;
 }
 
 .production__category-card:hover {

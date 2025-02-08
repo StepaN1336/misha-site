@@ -13,13 +13,18 @@ export async function cardRender(jsonUrl, pageTitle) {
         if (Array.isArray(products)) {
             container.innerHTML = products.map(product => `
                 <div class="production__card">
-                    <img src="${product.image}" alt="${product.title}" class="production__card-image" loading="lazy">
-                    <h3 class="production__card-title">${product.title}</h3>
+                    <div class="production__image-wrap">
+                        <img src="${product.image}" alt="${product.title}" class="production__card-image" loading="lazy">
+                    </div>
+                    <h2 class="production__card-title">${product.title}</h2>
                 </div>
             `).join('');
         } else {
             console.error('Products is not an array:', products);
         }
+
+        container.classList.remove("skeleton");
+
     } catch (error) {
         console.error(error);
     }
