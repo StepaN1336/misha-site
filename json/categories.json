@@ -2,61 +2,61 @@
     "vareniKovbasy": {
         "title": "Варені Ковбасни",
         "image": "images/Варені/Варена-Боярська.webp",
-        "jsonPage": "json/card-render/vareni-kovbasy.json"
+        "jsonPage": "../json/card-render/vareni-kovbasy.json"
     },
     "zapecheniVyroby": {
         "title": "Запечені Вироби",
         "image": "images/Запечене/Хлібець-індичка.webp",
-        "jsonPage": "json/card-render/zapecheni.json"
+        "jsonPage": "../json/card-render/zapecheni.json"
     },
     "kovbaskyGrylyovi": {
         "title": "Ковбаски Грильові",
         "image": "images/Ковбаски-грильові/Ковбаски-з-зеленню.webp",
-        "jsonPage": "json/card-render/kovbasy-grylyovi.json"
+        "jsonPage": "../json/card-render/kovbasy-grylyovi.json"
     },
     "kopchenoVareni": {
         "title": "Копчено Варені",
         "image": "images/Копчено-варені/Салямі-Київська.webp",
-        "jsonPage": "json/card-render/kopcheno-vareni.json"
+        "jsonPage": "../json/card-render/kopcheno-vareni.json"
     },
     "kopchenosti": {
         "title": "Копченості",
         "image": "images/Копченості/Шинка-Свинна-копчена.webp",
-        "jsonPage": "json/card-render/kopchenosti.json"
+        "jsonPage": "../json/card-render/kopchenosti.json"
     },
     "kormDlyaTvaryn": {
         "title": "Корми Для Тварин",
         "image": "images/Корми-для-тварин/Корм-для-тварин-вітамінний-зі-злаками.webp",
-        "jsonPage": "json/card-render/korm-dlya-tvaryn.json"
+        "jsonPage": "../json/card-render/korm-dlya-tvaryn.json"
     },
     "myasniDelikatesy": {
         "title": "М'ясні делікатеси",
         "image": "images/Мясні-делікатеси/Рулет-шпинатний-з-паштетом.webp",
-        "jsonPage": "json/card-render/myasni-delikatesy.json"
+        "jsonPage": "../json/card-render/myasni-delikatesy.json"
     },
     "saloZeltsyKrovyanky": {
         "title": "Сало Зельци Кров'янки",
         "image": "images/Сало-зельци-кровянки/Сало-Копчене.webp",
-        "jsonPage": "json/card-render/salo-zeltsy-krovyanky.json"
+        "jsonPage": "../json/card-render/salo-zeltsy-krovyanky.json"
     },
     "sardelkySosysky": {
         "title": "Сардельки Сосиски",
         "image": "images/Сардельки-сосиски/Сосиска-з-молоком.webp",
-        "jsonPage": "json/card-render/sardelky-sosysky.json"
+        "jsonPage": "../json/card-render/sardelky-sosysky.json"
     },
     "syrokopcheni": {
         "title": "Сирокопчені",
         "image": "images/Сирокопчені/Італійська.webp",
-        "jsonPage": "json/card-render/syrokopcheni.json"
+        "jsonPage": "../json/card-render/syrokopcheni.json"
     },
     "shashlyky": {
         "title": "Шашлики",
         "image": "images/Шашлики-як-полуфабрикати/Шашлик-З-Свинини.webp",
-        "jsonPage": "json/card-render/shashlyky.json"
+        "jsonPage": "../json/card-render/shashlyky.json"
     },
     "inshe": {
         "title": "Інше",
         "image": "images/Інше/Паштет-свинний-печіночний.webp",
-        "jsonPage": "json/card-render/inshe.json"
+        "jsonPage": "../json/card-render/inshe.json"
     }
 }
