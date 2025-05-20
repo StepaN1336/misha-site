@@ -1,6 +1,7 @@
 const categoriesContainer = document.querySelector('.production__categories-cards');
 const cardsContainer = document.querySelector('.production__cards-container');
 const productPageTitle = document.querySelector('.production__title');
+const backButton = document.querySelector('.back-button');
 
 fetch('json/categories.json')
     .then(response => response.json())
@@ -62,8 +63,17 @@ categoriesContainer.addEventListener('click', async (e) => {
     const pageTitle = link.dataset.title;
 
     categoriesContainer.style.display = 'none';
+    backButton.style.display = 'inline-block';
 
     await cardRender(jsonUrl, pageTitle);
+});
+
+backButton.addEventListener('click', () => {
+    cardsContainer.innerHTML = '';
+    cardsContainer.style.display = 'none';
+    categoriesContainer.style.display = 'flex';
+    productPageTitle.textContent = 'Каталог продукції';
+    backButton.style.display = 'none';
 });
 
 async function cardRender(jsonUrl, pageTitle) {
