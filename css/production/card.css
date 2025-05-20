@@ -1,5 +1,4 @@
-
-.production__card-list{
+.production__card-list {
     background-color: #ffffff;
     padding: 90px 0 0 0;
 }
@@ -108,7 +107,7 @@
         flex: 0 0 calc(33% - 20px);
         min-width: calc(33% - 20px);
     }
-    
+
     .production__card-title {
         font-size: 28px;
     }

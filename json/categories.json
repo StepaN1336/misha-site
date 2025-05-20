@@ -2,61 +2,61 @@
     "vareniKovbasy": {
         "title": "Варені Ковбасни",
         "image": "images/Варені/Варена-Боярська.webp",
-        "htmlPage": "categories-html/vareni-kovbasy.html"
+        "jsonPage": "json/card-render/vareni-kovbasy.json"
     },
     "zapecheniVyroby": {
         "title": "Запечені Вироби",
         "image": "images/Запечене/Хлібець-індичка.webp",
-        "htmlPage": "categories-html/zapecheni.html"
+        "jsonPage": "categories-html/zapecheni.json"
     },
     "kovbaskyGrylyovi": {
         "title": "Ковбаски Грильові",
         "image": "images/Ковбаски-грильові/Ковбаски-з-зеленню.webp",
-        "htmlPage": "categories-html/kovbasy-grylyovi.html"
+        "jsonPage": "categories-html/kovbasy-grylyovi.json"
     },
     "kopchenoVareni": {
         "title": "Копчено Варені",
         "image": "images/Копчено-варені/Салямі-Київська.webp",
-        "htmlPage": "categories-html/kopcheno-vareni.html"
+        "jsonPage": "categories-html/kopcheno-vareni.json"
     },
     "kopchenosti": {
         "title": "Копченості",
         "image": "images/Копченості/Шинка-Свинна-копчена.webp",
-        "htmlPage": "categories-html/kopchenosti.html"
+        "jsonPage": "categories-html/kopchenosti.json"
     },
     "kormDlyaTvaryn": {
         "title": "Корми Для Тварин",
         "image": "images/Корми-для-тварин/Корм-для-тварин-вітамінний-зі-злаками.webp",
-        "htmlPage": "categories-html/korm-dlya-tvaryn.html"
+        "jsonPage": "categories-html/korm-dlya-tvaryn.json"
     },
     "myasniDelikatesy": {
         "title": "М'ясні делікатеси",
         "image": "images/Мясні-делікатеси/Рулет-шпинатний-з-паштетом.webp",
-        "htmlPage": "categories-html/myasni-delikatesy.html"
+        "jsonPage": "categories-html/myasni-delikatesy.json"
     },
     "saloZeltsyKrovyanky": {
         "title": "Сало Зельци Кров'янки",
         "image": "images/Сало-зельци-кровянки/Сало-Копчене.webp",
-        "htmlPage": "categories-html/salo-zeltsy-krovyanky.html"
+        "jsonPage": "categories-html/salo-zeltsy-krovyanky.json"
     },
     "sardelkySosysky": {
         "title": "Сардельки Сосиски",
         "image": "images/Сардельки-сосиски/Сосиска-з-молоком.webp",
-        "htmlPage": "categories-html/sardelky-sosysky.html"
+        "jsonPage": "categories-html/sardelky-sosysky.json"
     },
     "syrokopcheni": {
         "title": "Сирокопчені",
         "image": "images/Сирокопчені/Італійська.webp",
-        "htmlPage": "categories-html/syrokopcheni.html"
+        "jsonPage": "categories-html/syrokopcheni.json"
     },
     "shashlyky": {
         "title": "Шашлики",
         "image": "images/Шашлики-як-полуфабрикати/Шашлик-З-Свинини.webp",
-        "htmlPage": "categories-html/shashlyky.html"
+        "jsonPage": "categories-html/shashlyky.json"
     },
     "inshe": {
         "title": "Інше",
         "image": "images/Інше/Паштет-свинний-печіночний.webp",
-        "htmlPage": "categories-html/inshe.html"
+        "jsonPage": "categories-html/inshe.json"
     }
 }

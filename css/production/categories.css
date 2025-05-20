@@ -35,10 +35,9 @@
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
-  aspect-ratio: 1.4 / 1;
 }
 
-.production__category-card:hover {
+.production__category-card:active {
   transform: scale(0.95);
 }
 
@@ -59,5 +58,9 @@
   .production__card-link {
     flex: 1 0 calc(100% - 20px);
     max-width: calc(100% - 20px);
+  }
+
+  .production__category-card:hover {
+    transform: scale(0.95);
   }
 }
